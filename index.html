@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personal de un desarrollador web.">
+    <title>Mi Portfolio | Desarrollador Web</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo">MiPortfolio.</a>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menu-btn"
+                aria-label="Abrir menú" aria-expanded="false">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <p class="subtitle">HOLA, SOY</p>
+
+                <h1>Lucas Rodriguez</h1>
+
+                <h2>Desarrollador Web</h2>
+
+                <p>
+                    Me apasiona la tecnología
+                    y aprender cosas nuevas.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn">
+                        Ver mis proyectos
+                    </a>
+
+                    <a href="#contacto" class="btn btn-outline">
+                        Contáctame
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MI -->
+        <section id="sobre-mi" class="section">
+            <h2>Sobre mí</h2>
+
+            <p class="section-description">
+                Soy una persona apasionada por la programación
+                y el desarrollo web. Me gusta crear soluciones
+                digitales y mejorar mis habilidades cada día.
+            </p>
+
+            <h3>Mis habilidades</h3>
+
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">c++</div>
+                <div class="skill">tinkercard</div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="section projects-section">
+            <h2>Mis proyectos</h2>
+
+            <p class="section-description">
+                Algunos de los trabajos que realicé.
+            </p>
+
+            <div class="projects">
+
+                <article class="project-card">
+                    <div class="project-image">01</div>
+
+                    <h3>"Autito seguidor de línea"</h3>
+
+                    <p>
+                        En 4°año nos hicieron crear en grupos un auto capaz de seguir una linea de color asignado, en mi caso negro, revise que tanto los componentes como el codigo funcionara. 
+                    </p>
+
+                    <a href="#" class="project-link">
+                        Ver proyecto →
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">02</div>
+
+                    <h3>"Proyecto cantina"</h3>
+
+                    <p>
+                        En 6°año nos hicieron realizar en grupo una pagina web la cual ayudaría a la cantina de mi colegio a organizar tanto su stock como sus deudores.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        Ver proyecto →
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">03</div>
+
+                    <h3>autito sumobot</h3>
+
+                    <p>
+                        en 6°año nos hicieron realizar un proyecto grupal el cual debia ser un auto capaza de empujar a otros autos, yo realice la parte estetica y revise que todo el codigo y los componentes funcionaran, fue complicado pero pudimos resolver los problemas del auto e incluso presentarlo a una competicion.
+                    </p>
+
+                    <a href="#inicio" class="project-link">
+                        Ver proyecto →
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="section contact-section">
+            <h2>Contacto</h2>
+
+            <p>
+                ¿Tenés una propuesta o querés trabajar conmigo?
+            </p>
+
+            <a href="mailto:tucorreo@gmail.com" class="btn">
+                Enviarme un correo
+            </a>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <p>© 2026 Mi Portfolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
